@@ -9,7 +9,7 @@ import webbrowser
 
 
 def SearchFor(text):
-    url = 'http://devdocs.io/#q=' + text.replace(' ', '%20')
+    url = 'http://doc.i18n.pro/#q=' + text.replace(' ', '%20')
     webbrowser.open_new_tab(url)
 
 
